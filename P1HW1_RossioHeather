@@ -1,0 +1,21 @@
+# Heather Rossio
+# 02/05/2005
+# P1LAB1
+# Create first program to turn in
+
+print("-----Calculating Exponents-----")
+
+
+b_v = int(input("Enter an integer as the base value: "))
+exponent = int(input("Enter an integer as the exponent: "))
+
+print((b_v), "raised to the power of", (exponent), "is", (b_v ** exponent), "!!")
+
+print("-----Addition and Subtraction-----")
+
+start_value = int(input("Enter a starting integer: "))
+add_value = int(input("Enter an integer to add:"))
+sub_value = int(input("Enter an integer to subtract:"))
+
+print((start_value), "+", (add_value), "-", (sub_value), "is equal to",\
+      (start_value + add_value - sub_value))
